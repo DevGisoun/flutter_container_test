@@ -1,0 +1,30 @@
+{
+	"name": "Flutter Container - Test",
+	"image": "ghcr.io/devgisoun/flutter:3.29.3",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Dart-Code.flutter",
+				"Dart-Code.dart-code"
+			],
+			"settings": {
+				"debug.openDebug": "openOnDebugBreak",
+				"debug.internalConsoleOptions": "openOnSessionStart",
+				"[dart]": {
+					"editor.formatOnSave": true,
+					"editor.formatOnType": true,
+					"editor.rulers": [
+						80
+					],
+					"editor.selectionHighlight": false,
+					"editor.suggestSelection": "first",
+					"editor.tabCompletion": "onlySnippets",
+					"editor.wordBasedSuggestions": "off"
+				}
+			}
+		}
+	},
+	"forwardPorts": [
+		5037
+	]
+}
