@@ -5,7 +5,8 @@
 		"vscode": {
 			"extensions": [
 				"Dart-Code.flutter",
-				"Dart-Code.dart-code"
+				"Dart-Code.dart-code",
+				"vscjava.vscode-gradle"
 			],
 			"settings": {
 				"debug.openDebug": "openOnDebugBreak",
@@ -25,6 +26,7 @@
 		}
 	},
 	"forwardPorts": [
-		5037
-	]
+		5555
+	],
+	"postAttachCommand": "adb connect host.docker.internal:5555"
 }
